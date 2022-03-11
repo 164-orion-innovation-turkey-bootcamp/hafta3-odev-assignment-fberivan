@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hafta3-odev';
+  title = 'Berivan Hafta 3 Ödev';
+
+  isLoggedIn(): boolean {
+    return localStorage.getItem("user") != undefined
+  }
 }

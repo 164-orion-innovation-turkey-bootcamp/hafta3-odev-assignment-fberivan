@@ -1,0 +1,32 @@
+<div class="component">
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="form-body">
+      <label for="mail">E-Mail: </label>
+      <input type="text" id="mail" formControlName="mail">
+      <div *ngIf="mail.invalid && (mail.dirty || mail.touched)" class="error">
+        <div *ngIf="mail.errors?.['required']">
+          Mail is required.
+        </div>
+        <div *ngIf="mail.errors?.['email']">
+          It is not a valid email.
+        </div>
+      </div>
+
+      <label for="password">Password: </label>
+      <input type="password" id="password" formControlName="pass">
+      <div *ngIf="pass.invalid && (pass.dirty || pass.touched)" class="error">
+        <div *ngIf="pass.errors?.['required']">
+          Password is required.
+        </div>
+        <div *ngIf="pass.errors?.['minlength']">
+          Password must be at least 4 characters long.
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="!registerForm.valid">Register</button>
+    <div *ngIf="submitError && mail.untouched && pass.untouched" class="error">
+      {{ submitError }}
+    </div>
+  </form>
+</div>

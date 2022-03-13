@@ -24,6 +24,6 @@ Start the Json-Server
 
 # ScreenShots
 
-![1]()
-![2]()
-![3]()
+![1](https://raw.githubusercontent.com/164-orion-innovation-turkey-bootcamp/hafta3-odev-assignment-fberivan/main/screenshots/1.png)
+![2](https://raw.githubusercontent.com/164-orion-innovation-turkey-bootcamp/hafta3-odev-assignment-fberivan/main/screenshots/2.png)
+![3](https://raw.githubusercontent.com/164-orion-innovation-turkey-bootcamp/hafta3-odev-assignment-fberivan/main/screenshots/3.png)

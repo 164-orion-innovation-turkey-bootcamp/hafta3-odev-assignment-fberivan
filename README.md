@@ -7,3 +7,23 @@ Kullanıcı girişi yapılmadan uygulama da ki içerikler görüntülenmemlidir.
 (Kullanıcı girişi yapıldıktan sonra, Local Storage da kullanıcı bilgileri saklanabilir)
 
 https://github.com/typicode/json-server api uygulama için kullanılabilir.
+
+# Running on Local Machine
+
+Start the Angular Application
+
+```bash
+  npm run start
+```
+
+Start the Json-Server
+
+```bash
+  npm run start-api
+```
+
+# ScreenShots
+
+![1]()
+![2]()
+![3]()

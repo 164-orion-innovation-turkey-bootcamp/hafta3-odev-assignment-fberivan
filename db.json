@@ -1,19 +1,14 @@
 {
   "users": [
     {
-      "id": 1,
-      "mail": "fberivan@gmail.com",
-      "pass": "1234"
-    },
-    {
       "mail": "test@test.com",
       "pass": "1234",
-      "id": 2
+      "id": 1
     },
     {
-      "mail": "sad@test.com",
-      "pass": "1212",
-      "id": 3
+      "mail": "fberivan@gmail.com",
+      "pass": "1234",
+      "id": 2
     }
   ]
 }
